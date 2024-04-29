@@ -14,7 +14,7 @@ public class commonActions {
 //
 //	}
 //
-//	public void navigate(Url) {
+//	public void navigate(String Url) {
 //       driver.get(Url);
 //	}
 }

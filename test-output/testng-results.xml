@@ -2,12 +2,28 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-04-29T17:21:45 IST" name="Default suite" finished-at="2024-04-29T17:21:54 IST" duration-ms="8361">
+  <suite started-at="2024-04-29T17:39:16 IST" name="Default suite" finished-at="2024-04-29T17:39:29 IST" duration-ms="12988">
     <groups>
     </groups>
-    <test started-at="2024-04-29T17:21:45 IST" name="Default test" finished-at="2024-04-29T17:21:54 IST" duration-ms="8361">
+    <test started-at="2024-04-29T17:39:16 IST" name="Default test" finished-at="2024-04-29T17:39:29 IST" duration-ms="12988">
       <class name="testPackage.MavenTest1">
-        <test-method signature="test1()[pri:0, instance:testPackage.MavenTest1@1e6a3214]" started-at="2024-04-29T17:21:45 IST" name="test1" finished-at="2024-04-29T17:21:54 IST" duration-ms="8196" status="PASS">
+        <test-method is-config="true" signature="launchBrower()[pri:0, instance:testPackage.MavenTest1@3a1d593e]" started-at="2024-04-29T17:39:14 IST" name="launchBrower" finished-at="2024-04-29T17:39:16 IST" duration-ms="1573" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrower -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:testPackage.MavenTest1@3a1d593e]" started-at="2024-04-29T17:39:16 IST" name="launchApplication" finished-at="2024-04-29T17:39:16 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method is-config="true" signature="maxBrowser()[pri:0, instance:testPackage.MavenTest1@3a1d593e]" started-at="2024-04-29T17:39:16 IST" name="maxBrowser" finished-at="2024-04-29T17:39:16 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- maxBrowser -->
+        <test-method is-config="true" signature="logInToApp()[pri:0, instance:testPackage.MavenTest1@3a1d593e]" started-at="2024-04-29T17:39:16 IST" name="logInToApp" finished-at="2024-04-29T17:39:16 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInToApp -->
+        <test-method signature="test1()[pri:0, instance:testPackage.MavenTest1@3a1d593e]" started-at="2024-04-29T17:39:16 IST" name="test1" finished-at="2024-04-29T17:39:29 IST" duration-ms="12884" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
