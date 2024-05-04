@@ -1,33 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-04-29T17:39:16 IST" name="Default suite" finished-at="2024-04-29T17:39:29 IST" duration-ms="12988">
+  <suite started-at="2024-05-03T14:33:31 IST" name="Default suite" finished-at="2024-05-03T14:33:35 IST" duration-ms="3732">
     <groups>
     </groups>
-    <test started-at="2024-04-29T17:39:16 IST" name="Default test" finished-at="2024-04-29T17:39:29 IST" duration-ms="12988">
-      <class name="testPackage.MavenTest1">
-        <test-method is-config="true" signature="launchBrower()[pri:0, instance:testPackage.MavenTest1@3a1d593e]" started-at="2024-04-29T17:39:14 IST" name="launchBrower" finished-at="2024-04-29T17:39:16 IST" duration-ms="1573" status="PASS">
+    <test started-at="2024-05-03T14:33:31 IST" name="Default test" finished-at="2024-05-03T14:33:35 IST" duration-ms="3732">
+      <class name="testPackage.tagLevel">
+        <test-method signature="a_thirdTest()[pri:0, instance:testPackage.tagLevel@60bdf15d]" started-at="2024-05-03T14:33:31 IST" name="a_thirdTest" finished-at="2024-05-03T14:33:34 IST" duration-ms="2393" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- launchBrower -->
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:testPackage.MavenTest1@3a1d593e]" started-at="2024-04-29T17:39:16 IST" name="launchApplication" finished-at="2024-04-29T17:39:16 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- a_thirdTest -->
+        <test-method signature="m_secondTest()[pri:0, instance:testPackage.tagLevel@60bdf15d]" started-at="2024-05-03T14:33:34 IST" name="m_secondTest" finished-at="2024-05-03T14:33:34 IST" duration-ms="635" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- launchApplication -->
-        <test-method is-config="true" signature="maxBrowser()[pri:0, instance:testPackage.MavenTest1@3a1d593e]" started-at="2024-04-29T17:39:16 IST" name="maxBrowser" finished-at="2024-04-29T17:39:16 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- m_secondTest -->
+        <test-method signature="z_firstTest()[pri:0, instance:testPackage.tagLevel@60bdf15d]" started-at="2024-05-03T14:33:34 IST" name="z_firstTest" finished-at="2024-05-03T14:33:35 IST" duration-ms="550" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- maxBrowser -->
-        <test-method is-config="true" signature="logInToApp()[pri:0, instance:testPackage.MavenTest1@3a1d593e]" started-at="2024-04-29T17:39:16 IST" name="logInToApp" finished-at="2024-04-29T17:39:16 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logInToApp -->
-        <test-method signature="test1()[pri:0, instance:testPackage.MavenTest1@3a1d593e]" started-at="2024-04-29T17:39:16 IST" name="test1" finished-at="2024-04-29T17:39:29 IST" duration-ms="12884" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test1 -->
-      </class> <!-- testPackage.MavenTest1 -->
+        </test-method> <!-- z_firstTest -->
+      </class> <!-- testPackage.tagLevel -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

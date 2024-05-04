@@ -7,12 +7,18 @@ import pageObjects.logIn;
 public class logInToAppTest extends logIn{
 	
 	static ChromeDriver driver = new ChromeDriver();
+	
 	@Test
-	public void test1() {      
-		System.out.println("@@Test");
-		driver.navigate().to("https://demo.nopcommerce.com/");
-//		this.btnLogIn();
+	public void test1() throws InterruptedException {      
+		System.out.println("@@Test@@");
+		launchBrowser();
 
+		logInTab();
+		Thread.sleep(5000);
+		//enterUserName();
+		findElement();
+//		Thread.sleep(5000);
+		driver.quit();
 	}
 
 }

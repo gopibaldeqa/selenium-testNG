@@ -35,12 +35,12 @@ public class MavenTest1 {
 
 	@Test
 	public void test1() throws InterruptedException {      
-		System.out.println("@@Test");
-		driver.navigate().to("https://demo.nopcommerce.com/");
-		
-		driver.findElement(By.className("ico-login")).click();
-		Thread.sleep(10000);
-		driver.quit();
+//		System.out.println("@@Test");
+//		driver.navigate().to("https://demo.nopcommerce.com/");
+//		
+//		driver.findElement(By.className("ico-login")).click();
+//		Thread.sleep(10000);
+//		driver.quit();
 	}     
 
 }
