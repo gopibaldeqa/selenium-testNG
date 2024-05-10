@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testPackage.priorityLevel">
+      <class name="testPackage.assertions">
         <methods>
-          <include name="firstTest"/>
-          <include name="secondTest"/>
+          <include name="test1"/>
         </methods>
-      </class> <!-- testPackage.priorityLevel -->
+      </class> <!-- testPackage.assertions -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
