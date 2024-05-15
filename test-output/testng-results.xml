@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-05-09T17:17:15 IST" name="Default suite" finished-at="2024-05-09T17:17:17 IST" duration-ms="1903">
+  <suite started-at="2024-05-15T10:33:58 IST" name="Default suite" finished-at="2024-05-15T10:34:00 IST" duration-ms="1777">
     <groups>
     </groups>
-    <test started-at="2024-05-09T17:17:15 IST" name="Default test" finished-at="2024-05-09T17:17:17 IST" duration-ms="1903">
-      <class name="testPackage.assertions">
-        <test-method signature="test1()[pri:0, instance:testPackage.assertions@3bcd426c]" started-at="2024-05-09T17:17:15 IST" name="test1" finished-at="2024-05-09T17:17:17 IST" duration-ms="1853" status="PASS">
+    <test started-at="2024-05-15T10:33:58 IST" name="Default test" finished-at="2024-05-15T10:34:00 IST" duration-ms="1777">
+      <class name="testPackage.titleAndUrlValidation">
+        <test-method signature="mousehover()[pri:0, instance:testPackage.titleAndUrlValidation@57b9e423]" started-at="2024-05-15T10:33:58 IST" name="mousehover" finished-at="2024-05-15T10:34:00 IST" duration-ms="1715" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test1 -->
-      </class> <!-- testPackage.assertions -->
+        </test-method> <!-- mousehover -->
+      </class> <!-- testPackage.titleAndUrlValidation -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
