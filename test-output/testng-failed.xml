@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testPackage.titleAndUrlValidation">
+      <class name="testPackage.implicitAndExplicit">
         <methods>
-          <include name="mousehover"/>
+          <include name="empAndExp"/>
         </methods>
-      </class> <!-- testPackage.titleAndUrlValidation -->
+      </class> <!-- testPackage.implicitAndExplicit -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
