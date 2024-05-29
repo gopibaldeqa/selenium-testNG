@@ -7,30 +7,26 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import util.actions;
 
-public class logIn extends actions{
+public class logIn extends actions {
 
 	static ChromeDriver driver = new ChromeDriver();
 
 	public static By btnLogIn = By.className("ico-login");
 	public static By txtEmail = By.id("Email");
 
-	
+	public static void launchBrowser(String url) {
+		driver.navigate().to(url);
+	}
+
+	public static void enterUserName(String userMail) {
+		driver.findElement(By.id("Email")).sendKeys(userMail);
+	}
+
+	public static void enterPassword(String password) {
+		driver.findElement(By.cssSelector("#Password")).sendKeys(password);
+	}
+
 	public static void logInTab() {
 		driver.findElement(btnLogIn).click();
 	}
-	public static void launchBrowser() {
-		driver.navigate().to("https://demo.nopcommerce.com/");
-	}
-	
-	public static void enterUserName() {
-		driver.findElement(By.id("Email")).sendKeys("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAa");
-	}
-	public static void enterFromActionClass() {
-		//typeElement(txtEmail);
-	}
-	
-	 public static void findElement() {
-		 WebElement element = driver.findElement(txtEmail);
-	     typeElement(element);
-	 }
 }
